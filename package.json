@@ -1,0 +1,25 @@
+{
+  "name": "boss",
+  "version": "1.0.0",
+  "description": "Simple Discord music bot, using Distube.",
+  "main": "./src/index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "author": "Manuela Alecio",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^1.7.0",
+    "@discordjs/opus": "^0.9.0",
+    "@discordjs/rest": "^2.2.0",
+    "@discordjs/voice": "^0.16.1",
+    "@distube/spotify": "^1.6.0",
+    "discord.js": "^14.14.1",
+    "distube": "^4.1.1",
+    "sodium": "^3.0.2"
+  },
+  "devDependencies": {
+    "husky": "^9.0.11",
+    "nodemon": "^3.1.0"
+  }
+}
