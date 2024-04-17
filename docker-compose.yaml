@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+  boss-bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    container_name: "boss-bot"

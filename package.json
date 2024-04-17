@@ -4,8 +4,8 @@
   "description": "Simple Discord music bot, using Distube.",
   "main": "./src/index.js",
   "scripts": {
-    "dev": "nodemon ./src/index.js",
-    "start": "node ./src/index.js"
+    "dev": "nodemon --exec node --env-file=.env ./src/index.js",
+    "start": "node --env-file=.env ./src/index.js"
   },
   "author": "Manuela Alecio",
   "license": "ISC",
@@ -21,5 +21,11 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=9.0.0",
+    "yarn": "use-npm",
+    "pnpm": "use-npm"
   }
 }

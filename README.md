@@ -7,7 +7,7 @@ A Discord.js module to simplify your music commands and play songs with audio fi
 * Support Spotify songs
 
 ## Requirement
-* [Node.js 16+](https://nodejs.org/en/download/)
+* [Node.js 20+](https://nodejs.org/en/download/)
 
 ## Tutorial
 ### Docker

@@ -12,6 +12,7 @@ const client = new Discord.Client({
 const fs = require("node:fs");
 const config = require("./../config.json");
 const { SpotifyPlugin } = require("@distube/spotify");
+const TOKEN = process.env.TOKEN;
 
 client.config = require("./../config.json");
 client.distube = new DisTube(client, {
@@ -119,4 +120,4 @@ client.distube
   )
   .on("finish", (queue) => queue.textChannel.send("Finished!"));
 
-client.login(config.token);
+client.login(TOKEN);
